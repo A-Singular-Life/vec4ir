@@ -24,7 +24,7 @@ requirements = [
 ]
 
 setup(name='vec4ir',
-      version=0.2,
+      version='0.2',
       description='Neural Word Embeddings for Information Retrieval',
       author="Lukas Galke",
       author_email="lga@informatik.uni-kiel.de",
