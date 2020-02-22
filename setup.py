@@ -29,6 +29,7 @@ setup(name='vec4ir',
       author="Lukas Galke",
       author_email="lga@informatik.uni-kiel.de",
       install_requires=requirements,
+      packages=['vec4ir'],
       scripts=['bin/vec4ir-evaluate',
                'bin/vec4ir-run']
       )
