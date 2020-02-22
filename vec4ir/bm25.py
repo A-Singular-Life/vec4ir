@@ -1042,7 +1042,7 @@ class TfidfTransformer(BaseEstimator, TransformerMixin):
                                             diags=0, m=n_features, n=n_features)
        
 
-    	return self
+        return self
 
     def transform(self, X, copy=True):
         """Transform a count matrix to a tf or tf-idf representation
